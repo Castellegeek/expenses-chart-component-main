@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+     --Soft--red: hsl(10, 79%, 65%)
+     --Cyan: hsl(186, 34%, 60%)
+     --Dark--brown: hsl(25, 47%, 15%)
+     --Medium--brown: hsl(28, 10%, 53%)
+     --Cream: hsl(27, 66%, 92%)
+     --Very--pale-orange: hsl(33, 100%, 98%)
+}
+.body{
+    font-family: 'DM Sans', sans-serif;
+}
+.primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(27, 66%, 92%)   
+}
+.first-card{
+    position: static;
+    width: 310px;
+    border-radius: 0.7rem;
+    padding: 0.2rem;
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-card{
+    position: relative;
+    bottom: 8px;
+    height: 300px;
+    width: 310px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.7rem;
+}
+.my-balance{
+    font-size: 9px;
+    margin-left:11px ;
+    margin-top: 8px;
+    margin-bottom: 1px;
+    color: hsl(27, 66%, 92%)
+}
+.dollards{
+    font-size: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    color: white;
+}
+.h2{
+   display: flex;
+   justify-content: start;
+   font-size: 12px;
+   padding-top: 20px;
+   padding-left: 23px;
+   letter-spacing: 0.9px;
+}
+.svg{
+   padding: 10.6px;
+}
+.mes-boites{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.boite{
+    width : 10%;
+    border-radius: 0.2rem;
+}
+.boite1{
+    height: 30px;
+    background-color:hsl(10, 79%, 65%) ;
+}
+.boite2{
+    height: 55px;
+    background-color:hsl(10, 79%, 65%) ;
+}
+.boite3{
+    height: 85px;
+    background-color: hsl(186, 34%, 60%);
+}
+.boite4{
+    height: 48px;
+    background-color:hsl(10, 79%, 65%) ;
+}
+.boite5{
+    height: 37px;
+    background-color:hsl(10, 79%, 65%) ;
+}
+.boite6{
+    height: 70px;
+    background-color:hsl(10, 79%, 65%) ;
+}
+.boite7{
+    height: 42px;
+    background-color:hsl(10, 79%, 65%) ;
+}
+.trait{
+    border-top: 1px solid black;
+    opacity: 8%;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.total-this-month{
+    display: block;
+    position: relative;
+    bottom: 30px;
+    left: 20px;  
+}
+.from-last{
+   display: flex;
+   justify-content: flex-end;
+   position: relative;
+   top: 8px;
+   font-size: 8px;
+   margin-right: 9%;
+   opacity: 68%;
+   letter-spacing: 0.6px;
+   font-weight: bold;
+   color: black;
+}
+.total{
+    font-size: 8px;
+    opacity: 68%;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    color: black;
+    
+}
+.doLLard{
+  color: hsl(25, 47%, 15%);      
+}
+.pourcentage{
+    position: relative;
+    top: 8px;
+    display: flex;
+    justify-content:flex-end;
+    font-size: 10px;
+    margin-right: 9%;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    color: hsl(25, 47%, 15%); 
+}
+.date{
+    display:flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.date1{
+   position: relative;
+   left: 15px;
+   top: 5px;
+   font-size: 8px;
+   opacity: 68%;
+   letter-spacing: 0.6px;
+   font-weight: bold;
+   color: black;
+}
+.date2{
+    position: relative;
+    left: 9px;
+    top: 5px;
+    font-size: 8px;
+    opacity: 68%;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    color: black;
+}
+.date3{
+    position: relative;
+    left: 1px ;
+    top: 5px;
+    font-size: 8px;
+    opacity: 68%;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    color: black;
+}
+.date4{
+    position: relative;
+    right: 6px;
+    top: 5px;
+    font-size: 8px;
+    opacity: 68%;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    color: black;   
+}
+.date5{
+    position: relative;
+    right: 9px;
+    top: 5px;
+    font-size: 8px;
+    opacity: 68%;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    color: black;   
+}
+.date6{
+    position: relative;
+    right: 11px;
+    top: 5px;
+    font-size: 8px;
+    opacity: 68%;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    color: black;
+}
+.date7{
+   position: relative;
+   right: 17px;
+   top: 5px;
+   font-size: 8px;
+   opacity: 68%;
+   letter-spacing: 0.6px;
+   font-weight: bold;
+   color: black;
+}
